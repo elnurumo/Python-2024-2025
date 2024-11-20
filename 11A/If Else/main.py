@@ -219,14 +219,29 @@
 #         say=say+1
 # print('Ededlerin sayi',say)
 
-# 68
+# # 68
 
-n = int(input())
-c = 0
-s = 0
-for i in str(n):
-    i = int(i)
-    if i % 2 != 0:
-        s = s+1
-        c = c+i
-print(c,s)
+# n = int(input())
+# c = 0
+# s = 0
+# for i in str(n):
+#     i = int(i)
+#     if i % 2 != 0:
+#         s = s+1
+#         c = c+i
+# print(c,s)
+
+
+# 69
+
+# a = 5
+# b = 4
+
+# if a>b:
+#     print('1')
+# if a>=b:
+#     print('2')
+# elif a == 5:
+#     print('3')
+
+
