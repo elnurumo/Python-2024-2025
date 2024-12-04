@@ -231,13 +231,147 @@ a = 'Salam'
 # else:
 #     print('Beraberyanli')
 
-# 55
+# # 55
+
+# n = int(input()) # tam ededlere çeviri int()
+# if n>0:
+#     if n%6 == 0:
+#         print('He')
+#     else:
+#         print('yox')
+# else:
+#     print('natural eded daxil olunmuyub')
 
 
+# # 56
+
+# n = int(input())
+# if n>0 and n<10:
+#     print('Birreqemli')
+# elif n>9 and n<100:
+#     print('Ikireqemli')
 
 
+# # 57
+
+# n = int(input())
+# if n % 2 == 0:
+#     print(n-1,n+1, 'tek ededler')
+# else:
+#     print(n-1,n+1,'cut ededler')
 
 
+# # 58
+
+# x = int(input())
+# if x<=5:
+#     y = abs(x+2)+3*x
+# elif x>7:
+#     y = x**3-2
+# else:
+#     y = (3*x**4+10)**0.5
+# print(y)
+
+# # 59
+
+# a = int(input())
+# b = int(input())
+# if a<b:
+#     z = 3*b/abs(a-b)+3*(a+b)
+# elif a>b:
+#     z = a**2/abs(a+b)
+# else:
+#     z =(2*a**2+abs(b**3))**0.5
+# print(z)
 
 
+# # 60
 
+# n1 =int(input())
+# n2 =int(input())
+# n3 =int(input())
+# if n1==n2==n3:
+#     print('3')
+# elif n1!=n2 and n2!=n3 and n1!=n3:
+#     print('0')
+# else:
+#     print('2')
+
+
+# # 61
+
+# saat1 = int(input('Saat1: '))
+# deqiqe1 = int(input('Deqiqe1: '))
+# saniye1 = int(input('Saniye1: '))
+# saat2 = int(input('Saat2: '))
+# deqiqe2 = int(input('Deqiqe2: '))
+# saniye2 = int(input('Saniye2: '))
+# a1 = saat1*3600+deqiqe1*60+saniye1
+# a2 = saat2*3600+deqiqe2*60+saniye2
+# ferq = a2-a1
+# print(ferq)
+
+# # 62
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a<b and b<c or c<b and b<a:
+#     print('Qiymetce orta olan=',b)
+# elif a<c and c<b or b<c and c<a:
+#     print('Qiymetce orta olan=',c)
+# else:
+#     print('Qiymetce orta olan=',a)
+    
+
+## Sual str aid
+
+# name = 'info'
+# m = len(name)//2
+# n = name[m]
+# print(n)
+
+# # 63
+
+# n = input()
+# m = len(n)
+# if m%2 == 0:
+#     print(0)
+# else:
+#     print(n[m//2])
+
+# # 64
+
+# azn = float(input())
+# kQiymet = float(input())
+# kSay = azn // kQiymet
+# QaliqPul = azn - kQiymet*kSay  
+# print(kSay,QaliqPul)
+
+## 65
+
+# n = int(input())
+# if n == 12 or n == 1 or n == 2:
+#     print('Qışdır')
+# elif n == 3 or n == 4 or n == 5:
+#     print('Yazdir')
+# elif n == 6 or n == 7 or n == 8:
+#     print('Yaydir')
+# elif n == 9 or n == 10 or n == 11:
+#     print('Payizdir')
+# else:
+#     print('Bele bir ay sırasi yoxdur')
+
+
+# n = int(input())
+# if 1<=n<=2 or n==12:
+#      print('Qisdir')
+# elif 3<=n<=5:
+#     print('Yazdir')
+# elif 6<=n<=8:
+#     print('Yaydir')
+# elif 9<=n<=11:
+#     print('Payizdir')
+
+
+   
