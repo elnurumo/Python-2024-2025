@@ -347,4 +347,252 @@ print(onluq)
 
 
 
+# Suallar --------->>>>
+# 90-112
+ 
+
+
+# 90
+
+n = int(input())
+s = 0
+k = 1
+if n >=3:
+    for i in range(3,n+1,2):
+        s = s+k*i
+        k = -k
+    print(s)
+
+
+# 91
+
+s = 0
+for i in range(100,1000):
+    a = i//100
+    b = i//10%10
+    c = i%10
+    if a%3==0 and b%3 == 0 and c%3==0:
+        s = s+1
+print(s)
+
+
+# 92
+
+cem = 0
+for i in range(100,1000,2):
+    a = i//100
+    b = i//10%10
+    if a%2 == 0 and b%2 == 0:
+        cem = cem+i
+print(cem)
+
+
+# 93
+
+n = int(input())
+m = str(n)
+b = []
+for i in m:
+    i = int(i)
+    if i%2 != 0:
+        b.append(i)
+s = len(b)
+if s == 0:
+    print('Ədəddə tək rəqəm yoxdur')
+else:
+    mini = min(b)
+    print(mini)
+
+
+# a = [2,3,4,-4,45,0] listinden
+# minimum ededi tap. min() funksiyasindan 
+# istifade etme !!!!!!!!
+
+a = [2,3,4,-4,45,0]
+min = a[0]
+for i in a:
+    if i<min:
+        min = i
+print(min)
+
+# 95
+
+n = int(input())
+n = str(n)
+reqemler = '01234567'
+q = len(n)-1
+onluq = 0
+for i in n:
+    onluq = onluq + reqemler.index(i) * 8 **q
+    q = q-1
+print(onluq)
+
+# 96
+
+m = int(input())
+for i in range(200,1000):
+    a = i//100
+    b = i//10%10
+    c = i%10
+    if b!=1 and c!=1:
+        if a*b*c == m:
+            print(i)
+
+# 97
+
+n = int(input())
+n = str(n)
+s = 0
+if int(n)>0:
+    for i in n:
+        i = int(i)
+        if i%2 != 0:
+            s = s+1
+    print(s)
+
+
+98
+
+# sade vuruq
+n = int(input())
+sadeVuruq = 2
+while n > 1:
+    if n%sadeVuruq == 0:
+        n = n//sadeVuruq
+        print(sadeVuruq)
+    else:
+        sadeVuruq = sadeVuruq + 1
+
+
+
+# sade bolen
+
+n = int(input())
+sadeBolen = 2
+b = []
+while n > 1:
+    if n%sadeBolen == 0:
+        n = n//sadeBolen
+        if b.count(sadeBolen) == 0:
+            b.append(sadeBolen)
+    else:
+        sadeBolen = sadeBolen + 1
+for i in b:
+    print(i)
+
+# 99
+
+n = int(input()) # 33345
+n = str(n)
+b = []
+for i in n:
+    if i == min(n):
+        b.append(i)
+print(len(b))
+
+n = int(input())
+n = str(n)
+m = min(n)
+s = n.count(m)
+print(s) 
+
+# 100
+
+n = int(input())
+s = 0
+f = 0
+while n>1:
+    if n%2!=0:
+        f = 1
+    else:
+        s = s+1
+    n = n/2
+if f == 0:
+    print(s)
+else:
+    print('Eded yanlishdir')
+
+# 101
+
+g = 1
+s = 5
+while g<=5:
+    g = g + 1
+    s = s + s*20/100
+print(s)
+
+## 102
+
+x = int(input())
+n = int(input())
+s = 0
+f = 1
+for i in range(1,n+1):
+    f = f * i
+    s = s + (-1)**(i+1)*x**i/f
+print(s)
+
+# 105
+
+n = input() #Dim9912info2
+reqemler = '0123456789'
+s = 0
+for i in n:
+    if reqemler.count(i) == 1:
+        s = s+1
+print(s)
+
+
+# 106
+
+s = input()
+n = []
+for i in s:
+    if n.count(i) == 0:
+        n.append(i)
+print(n)
+
+
+# 107
+
+n = int(input())
+n = str(n)
+reqemler = '01'
+onluq = 0
+q = len(n)-1
+for i in n:
+    onluq = onluq + reqemler.index(i) * 2 **q
+    q = q -1
+s = ''
+while onluq > 0:
+    q = onluq%8
+    s = str(q) + s
+    onluq = onluq//8
+print(s)
+
+109
+
+a = [123,4532,3431]
+for i in range(0,len(a)):
+    b = str(a[i])
+    b = list(b)
+    b.reverse()
+    b = ''.join(b)
+    a[i] = int(b)
+print(a)
+
+# 112
+
+n = int(input())
+s = 0
+while n>0:
+    n = str(n)
+    a = int(n[0])
+    b = int(n[len(n)-1])
+    n = int(n)-(a+b)
+    s = s+1
+print(s)
+
+
+
 
