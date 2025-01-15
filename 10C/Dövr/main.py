@@ -118,3 +118,137 @@
 # b = 5
 # a.append(b)
 # print(a)
+
+# m = []
+# index = 2
+# element = 5
+# m.insert(0,6)
+# m.insert(index,element)
+# print(m)
+
+# a = 'Salam dunya'
+# b = a
+# a = list(a)
+# print(a)
+# b = b.split()
+# print(b)
+
+# a = ['Salam','Dunya']
+# a = '-'.join(a) # list den str e çevirir
+# print(a)
+
+# Suallar
+
+
+
+
+# # 67
+# n = int(input()) # 1555
+# n = str(n) # '1555'
+# a = int(n[1])  #onluq
+# b = int(n[2])  # teklik
+# if b%2==0:
+#     c = a+b
+# else:
+#     c = a*b
+# print(c)
+
+# # 68
+
+# n = int(input())
+# s = 0
+# for i in range(1,n+1):
+#     s = s + 1/i**2
+# print(s)
+
+# # 69
+# n = int(input())
+# s = 0
+# for i in range(1,n+1,2):
+#     s = s + (1/i)**i
+# print(s)
+
+
+
+# # 72
+
+# n = int(input()) # ededlerin sayi
+# b = []
+# for i in range(0,n):
+#     a = int(input())
+#     b.append(a)
+#     # print(b)
+# print(min(b))
+
+# 83,84,88,89,90,95,
+# 101,102, 105-112
+
+
+# # 73
+# n = int(input())
+# b = []
+# for i in range(n):
+#     a = int(input())
+#     b.append(a)
+# print(max(b))
+
+# # 76
+
+# n = int(input('Doğulduğun ay: '))
+# if n==12 or n==1 or n==2:
+#     print('Qışdadır')
+# elif n==3 or n==4 or n==5:
+#     print('yazdadır')
+# elif n==6 or n==7 or n==8:
+#     print('Yaydadır')
+# elif n==9 or n==10 or n==11:
+#     print('Payızdadır')
+# else:
+#     print('Belə bir ay yoxdur')
+
+
+# # 78
+
+# n = int(input('Ededlerin sayi: ')) # say
+# k = [] # tek
+# m = [] # cut
+# for i in range(n):
+#     a = int(input('Ededi daxil et: '))
+#     if a%2==0:
+#         m.append(a)
+#     else:
+#         k.append(a)
+# print(m,k)
+
+
+# # 79
+
+# n = int(input()) # 205
+# s = 0 # 0 ların sayı üçün
+# while n%10==0: 
+#     s = s+1
+#     n = n//10
+# print(s)
+
+# # 80
+
+# n = int(input())
+# s = 0
+# if n>1:
+#     for i in range(2,n//2+1):
+#         if n%i==0:
+#             s = s+1
+#     if s>0:
+#         print('Mürəkkəb')
+#     else:
+#         print('Sadədir')
+
+
+
+# 81
+
+# n = int(input())
+# s = 0
+# for i in range(1,n+1):
+#     s = s + (-1)**(i+1)*i*(i+1)
+# print(s)

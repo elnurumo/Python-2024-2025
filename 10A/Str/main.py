@@ -146,13 +146,43 @@
     
 
 
-## 72
+# ## 72
 
-a = [2314,342,1206,4321,57,78965]
-for i in range(0,len(a)):
-    b = str(a[i])
-    ma = int(max(b))
-    mi = int(min(b))
-    c = ma*ma + mi*mi
-    a[i] = c 
-print(a)
+# a = [2314,342,1206,4321,57,78965]
+# for i in range(0,len(a)):
+#     b = str(a[i])
+#     ma = int(max(b))
+#     mi = int(min(b))
+#     c = ma*ma + mi*mi
+#     a[i] = c 
+# print(a)
+
+
+# # 
+# n = int(input())
+# s = 0
+# m = 0
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         s = s+i
+#         m = m + 1
+# print(s/m)
+
+
+# 
+
+# s = 0
+# for i in range(1001, 10000,2):
+#     a = i//1000
+#     b = i//100%10
+#     c = i//10%10
+#     if a%2!=0 and b%2!=0 and c%2!=0:
+#         s = s+i
+# print(s) 
+
+
+# Suallar
+# 74,60,63,     ----55
+# 63-93, 80,92  11.4
+
+

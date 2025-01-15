@@ -31,3 +31,35 @@
 #     print('Polindrom')
 # else:
 #     print('Polindirom deyil')
+
+
+
+# 250
+
+
+# n = int(input()) 
+
+# s = 0
+# f = 0
+# for i in range(n):
+#     a = int(input())
+#     if a>0:
+#         s = s+a
+#     else:
+#         n = n-1
+# print(s/n)
+
+
+
+# print(4)
+# print(5,end='')
+# print(6)
+
+
+# 30
+
+s = 0
+for i in range(1,100):
+    i = str(i)
+    s = s + i.count('3')
+print(s)
