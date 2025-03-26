@@ -222,11 +222,221 @@
 # s = a*b/2
 # print(s)
 
+# # 2
+# n = 324
+# n = str(n)
+# a = n[0]
+# b = n[1]
+# c = n[2]
+# s = a+' '+b+' '+c
+# print(s)
+
+
+# a = [2,7,4,5,6,8]
+# b = []
+# for i in a:
+#     if i!=4 and i != 7:
+#         b.append(i)
+# print(b)
+
+
+# import math
+# n = int(input())
+# k = math.sqrt(n)
+# if k == int(k):
+#     print('Yes')
+# else:
+#     print('No')
+
+
+# from math import*
+# n = int(input())
+# k = sqrt(n)
+# if k == int(k):
+#     print('Yes')
+# else:
+#     print('No')
+
+
+# 
+
+# n = int(input())  # 5
+# a = ['Bazar ertesi',  # 1 -- 0
+#      'Çərşənbə axşamı', # 2 -- 1
+#      "Çərşənbə",  # 3--- 2
+#      'Cuma axshami', # 4 --- 3
+#      'Cuma', # 5 --- 4
+#      'Shanba',
+#      'Bazar'
+#      ]
+# if 0 < n <=7:
+#     print(a[n-1])
+# else:
+#     print('Bele bir gun yoxdur')
+
+
+
+#  1
+
+# def reversedNumber(x):
+#     x = str(x)
+#     x = list(x)
+#     x.reverse() # ['5','4','2']
+#     x = ''.join(x) # '542'
+#     x = int(x) # 542
+#     return x
+
+# a = int(input())
+# b =int(input())
+# a = reversedNumber(a)
+# b = reversedNumber(b)
+# s = a+b
+# s = reversedNumber(s)
+# print(s)
+
 # 2
-n = 324
-n = str(n)
-a = n[0]
-b = n[1]
-c = n[2]
-s = a+' '+b+' '+c
-print(s)
+
+# n = [11,3,4,5,0]
+# maxi = max(n)
+# mini = min(n)
+# imax = n.index(maxi)
+# imin = n.index(mini)
+# result = abs(imax-imin) 
+# print(result)
+
+# n = [10,22,9,33,21,50,41,45,80]
+# b = []
+# b.append(n[0])
+# j = 0
+# for i in range(0,len(n)):
+#     if b[j]<n[i]:
+#         b.append(n[i])
+#         j = j+1
+# print(b)
+# 
+
+# k = int(input())
+# n = [1,2,3,4,5]
+# s = []
+# a = 0
+# while a<k:
+#     b=n[len(n)-1]
+#     n.remove(b)
+#     s.append(b)
+#     a= a+1
+# s= s+n
+# print(s)
+
+# # 66
+
+# n = int(input())
+# n = str(n)
+# for i in n:
+#     print(i)
+
+
+# # 85
+# s = 0
+# for i in range(1,201):
+#     if i%5==0 and i%3!=0:
+#         s = s+1
+# print(s)
+
+# # 86
+
+# n = float(input()) # 5.6
+# tam = ''
+# if n>0:
+#     n = str(n)
+#     for i in range(0,len(n)):
+#         if n[i] == '.':
+#             tam = n[0:i]
+#             kesr = '0' + n[i:]
+# else:
+#     n = str(n)
+#     for i in range(0,len(n)):
+#         if n[i] == '.':
+#             tam = int(n[0:i]) - 1
+#             kesr = 10**len(n[i+1:]) - int(n[i+1:])
+#             kesr = kesr/10**len(str(kesr))
+        
+#     print(tam,kesr)
+
+
+# # 94
+
+# n = input().upper() # 2B
+# reqemler = '0123456789ABCDEF'
+# l = len(n)-1
+# onluq = 0
+# for i in n:
+#     onluq = onluq + reqemler.find(i) * 16 ** l
+#     l = l-1
+# print(onluq)
+
+# 108
+
+# n = int(input()) # 208
+# n = str(n) # '208'
+# f = 0
+# for i in n:
+#     if i>='8':
+#         f = 1
+# if f ==1:
+#     print('Mövcud deyil')
+# else:
+#     print('Mövcuddur')
+
+
+
+# sınaq Dim 16 mart
+
+# # 89
+# n = abs(int(input())) # 256
+# a = n//100
+# b = n//10%10
+# c = n%10
+# kub = a**3+b**3+c**3
+# kv = a**2+b**2+c**2
+# ferq = kub - kv
+# print(ferq)
+
+# 90
+
+# firstMonth = ['Yanvar', # 0
+#               'Fevral', # 1
+#               'Mart', #2
+#               'Aprel', # 3
+#               'May', # 4
+#               'Iyun' # 5
+#               ]
+# b = []
+# for i in range(len(firstMonth)):
+#     a = int(input())
+#     b.append(a)
+# for i in range(1,len(b)-1):
+#     if b[i-1]<b[i]>b[i+1]:
+#         print(firstMonth[i],':',b[i],'ədəd')
+# else:
+#     print('Uğurlu ay yoxdur')
+
+
+# suQ = 100
+# n = int(input())
+# if 1<=n<=1000:
+#     n = n*100
+#     say = n//suQ
+# print(say)
+
+
+
+# print(55,end=" ")
+# print(30,end=' ')
+# print(25)
+# print(33)
+# print(10)
+
+# import math
+# x = 1
+# y = (5+math.sqrt(x))/abs(x-4)*3
+# print(y)

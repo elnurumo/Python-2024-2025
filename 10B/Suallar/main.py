@@ -184,12 +184,193 @@
 
 
     
-n = int(input())
-a = ['Bazar ertesi','Ç.A', "Ç", "C.a","C","Ş","Bazar"]
-#      0              1     2     3    4   5
-if 1<=n<8:
-    print(a[n-1])
-else:
-    print('Belə bir gün yoxdur')
+# n = int(input())
+# a = ['Bazar ertesi','Ç.A', "Ç", "C.a","C","Ş","Bazar"]
+# #      0              1     2     3    4   5
+# if 1<=n<8:
+#     print(a[n-1])
+# else:
+#     print('Belə bir gün yoxdur')
 
 
+
+
+# 
+# a = 'AbACAdFEa'
+# b= [] # ['b', 'CC','ddd','FFFF','EEEEE']
+# #         0    1     2     3       4
+# k=1
+# for i in a:
+#     if i!="A" and i!="a":
+#         b.append(i*k) # 'b' * 1
+#         k=k+1  # 5
+# print(len(b[2])+len(b[len(b)-1]))
+#  #        3    +   5   =  8      
+
+
+# def fibonacci(x):
+#     a,b = 0,1
+#     for i in range(0,n):
+#         a , b = b , a+b
+#     return a
+
+# n = int(input())
+# if n % 2==0:
+#     print(fibonacci(n)**2)
+# else:
+#     print(fibonacci(n))
+# print(fibonacci(n)**2 if n%2==0 else fibonacci(n))
+
+
+# 2
+
+# a = input().split() #
+# s = 0
+# for i in a:
+#     if a.count(i) == 1:
+#         s = s+1
+# print(s)
+
+
+
+
+# 3
+
+# k = 2
+# a = [1,2,3,4,5]
+# l = len(a)-1
+# for i in range(k):
+#      a.insert(0,a[l])
+# print(a[0:l+1])
+
+# 5
+
+
+# #  EBOB
+# a =int(input())
+# b = int(input())
+# C = a*b
+# while a!=b:
+#     if a>b:
+#         a = a-b
+#     else:
+#         b = b-a
+# ekob =C/a
+# print(ekob)
+
+
+# #  16 lıqdan 10luğa
+
+# n = input() # AA
+# reqemler = '0123456789ABCDEF'
+#          #  0123456789101112
+# l = len(n)-1
+# onluq = 0
+# for i in n:
+#     onluq = onluq + reqemler.find(i)*16**l
+#     l = l-1
+# print(onluq)
+
+
+# def reversedNumber(x):
+#     x = str(x)
+#     x = list(x)
+#     x.reverse()
+#     x = ''.join(x)
+#     x = int(x)
+#     return x
+
+# a = int(input())
+# b = int(input())
+# s = reversedNumber(a) + reversedNumber(b)
+# s = reversedNumber(s)
+# print(s)
+
+# # 
+
+# n = [3,8,1,5,6]
+# mini = min(n)
+# maxi = max(n)
+# minIndex = n.index(mini)
+# maxIndex = n.index(maxi)
+# print(abs(minIndex-maxIndex)) 
+
+
+# # 89
+
+# n = int(input())
+# n = abs(n)
+# a = n//100
+# b = n//10%10
+# c = n%10
+# kub = a**3+b**3+c**3
+# kvdrt = a**2+b**2+c**2
+# print(kub+kvdrt)
+
+
+# # 90
+
+# firstMonths = ["Yanvar",'Fevral', 'Mart', 'Aprel', 'May','Iyun' ]
+# b = []
+# f = 0
+# for i in range(len(firstMonths)):
+#     a = int(input())
+#     b.append(a)
+# for i in range(1,len(b)-1):
+#     if b[i-1] < b[i] > b[i+1]:
+#         print(firstMonths[i], ':', b[i], 'ədəd')
+#         f = 1
+# if f == 0:
+#     print('Uğurlu ay yoxdur')
+
+
+
+# # # 
+
+# n = int(input()) # 2548
+# kub = 0
+# kvadrat = 0
+# while n>0:
+#     q = n%10
+#     kub = kub + q**3
+#     kvadrat = kvadrat + q**2
+#     n = n//10
+# print(kvadrat+kub)
+
+
+# # 5
+
+# a = int(input())
+# b = int(input())
+# c = a*b
+# while a!=b:
+#     if a>b:
+#         a = a-b
+#     else:
+#         b = b-a
+# ekob = c/a
+# print(ekob)
+
+# 1
+
+# def fibonacci(x):
+#     a,b = 0,1
+#     for i in range(x):
+#         a,b = b, a+b
+#     return a
+
+# n = int(input())
+# a = fibonacci(n)
+# if n%2 == 0:
+#     a = a**2
+#     print(a)
+# else:
+#     print(a)
+
+
+# a = 5
+# b = a
+# c 
+
+
+# 

@@ -452,8 +452,89 @@
 #         s = s+1
 # print(s)
 
+# # 90
+
+# def checkSimpleNumber(x):
+#     f = 1
+#     if x > 1:
+#         for j in range(2, x//2+1):
+#             if x%j==0:
+#                 f = 0
+#         return f
+
+# a = [245,100,348,124,422,334,232]
+# s = 0
+# b = []
+# for i in a:
+#     y = i//100 # 2
+#     t = i%10 # 5
+#     s = y+t # 7
+#     if checkSimpleNumber(s) == 1:
+#         b.append(i)
+# print(b)
 
 
 
 
+
+# # 88
+
+# a = [1,2,3,4,5]
+# s = sum(a)
+# b = []
+# for i in a:
+#     b.append(s-i)
+# print(b)
+
+
+# # 89
+
+# n = int(input()) # 256
+# kub = (n//100)**3 + (n//10%10)**3 + (n%10)**3
+# kvdrt = (n//100)**2 + (n//10%10)**2 + (n%10)**2
+# print(kub - kvdrt)
+
+
+# # 90
+
+# firstMonths = ['Yanvar', # 0
+#                'Fevral', # 1
+#                'Mart',  # 2
+#                'Aprel', # 3
+#                'May', # 4
+#                'Iyun' # 5
+# ]
+# b = []
+# f = 0 # flag metodu
+# for i in range(len(firstMonths)):
+#     a = int(input())
+#     b.append(a)
+# for i in range(1,len(b)-1):
+#     if b[i-1] < b[i] > b[i+1]:
+#         print(firstMonths[i], ":", b[i],"ədəd")
+#         f = 1
+# if f == 0:
+#     print('uğurlu ay yoxdur')
+
+
+# a = [24,5,5,5,5,6,30]
+# # b = min(a)
+# # print(b)
+# b = a.count(5)
+# print(b,a)
+
+
+# a = [5,6,8,15] # dsfkafslgk
+# b = [5,6,8]  # sadlfk
+
+# print(a==b) # wqfpowjf
+
+# rekursiv funksiya
+
+# def recursion(n):
+#     if n == 1:
+#         return 1
+#     return n+recursion(n-1)
+
+# print(recursion(5))
 
